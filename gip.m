@@ -1,7 +1,7 @@
 clc;
 close all;
 clear all;
-video = mmreader('Aviler\15sn.avi'); 
+video = mmreader('15sn.avi'); 
 frameCount=video.NumberOfFrames;
 variable=1;
 for i=1:3:frameCount
